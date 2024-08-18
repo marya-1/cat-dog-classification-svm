@@ -6,3 +6,7 @@ __pycache__/
 # Ignore other unwanted files
 *.log
 
+# Ignore large files
+train.zip
+test1.zip
+
