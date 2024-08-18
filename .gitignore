@@ -1,19 +1,8 @@
-# Ignore datasets and large files
+# Ignore data files and directories
 *.zip
-train/
-test/
-
-# Ignore Python compiled files
 __pycache__/
-*.py[cod]
+.DS_Store
 
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Ignore other unwanted files
+*.log
 
-# Ignore environment files (if using a virtual environment)
-env/
-.venv/
-
-# Ignore any other large files or folders not necessary for the repository
-*.h5
-*.tar.gz
